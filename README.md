@@ -39,7 +39,7 @@ For example, use `EXTRA_LATENCY="5.5s"` to sleep for 5.5 seconds on every reques
 
 #Run memeater
 ```
-kubectl exec <pod name> -- ./memeater
+kubectl exec <pod name> -- ./memeate 2000
 ```
 
 #Run cpu-burner
